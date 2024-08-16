@@ -1,0 +1,16 @@
+lua
+repeat task.wait() until game:IsLoaded()
+
+getgenv().VipServer = "UyI7BJ74BN" --випка для фарма
+getgenv().speed = 60 -- скорость полета
+getgenv().neededlvl = 575 -- лвл который нужен
+getgenv().iwantyourWebhook = "https://discord.com/api/webhooks/1271193726735093792/aHdUZ9cyjeXB_9T2UMlZte-tVN2wM-PEb5sqH_rdTlyFLJfNZHYISCICeHqsceM72wt7" -- вебхук для пингов
+getgenv().buygeppo = true -- покупать геппо или нет
+getgenv().gotoimpel = true -- ставить ли спавн на импеле
+getgenv().gotofirstsea = false -- если акк в втором море можно его перекинуть в первое если у него нет рифлы
+getgenv().autokick = true -- ниже в сообщ поясню
+getgenv().autokicktime = 600
+
+--OBFUSCATION ZONE
+
+loadstring(game:HttpGet("https://gist.githubusercontent.com/kequask/7208864441024118a2ac0e3e3f02299a/raw/f61c7142fb77a45d0cdbb4fdc8572034c503baec/worker.lua"))()
