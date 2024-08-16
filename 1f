@@ -1,4 +1,3 @@
-lua
 repeat task.wait() until game:IsLoaded()
 
 getgenv().VipServer = "ZMkJ5ZDe9u" --випка для фарма
