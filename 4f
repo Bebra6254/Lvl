@@ -1,6 +1,6 @@
 repeat task.wait() until game:IsLoaded()
 
-getgenv().VipServer = "291gbWLtZG" --випка для фарма
+getgenv().VipServer = "CBublloYJ1" --випка для фарма
 getgenv().speed = 60 -- скорость полета
 getgenv().neededlvl = 575 -- лвл который нужен
 getgenv().iwantyourWebhook = "https://discord.com/api/webhooks/1271193726735093792/aHdUZ9cyjeXB_9T2UMlZte-tVN2wM-PEb5sqH_rdTlyFLJfNZHYISCICeHqsceM72wt7" -- вебхук для пингов
